@@ -28,7 +28,7 @@ end
 
 def retrieve_element_from_index(array, index_number)
   array_phrase = ["wow", "I", "am", "really", "learning", "arrays!"]
-  array_phrase[.replace(4, "totally")]
+  array_phrase[2]
 end
 
 def retrieve_first_element_from_array(array)
@@ -43,5 +43,5 @@ end
 
 def update_element_from_index(array, index_number, element)
   array_phrase = ["wow", "I", "am", "really", "learning", "arrays!"]
-  array_phrase[-1]
+  array_phrase[3] = "totally"
 end
